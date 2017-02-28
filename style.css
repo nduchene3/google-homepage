@@ -1,0 +1,161 @@
+div#fixedheader {
+	position:fixed;
+	top:10px;
+	width:100%;
+	padding:20px;
+}
+
+div#fixedfooter {
+	position:fixed;
+	bottom:10px;
+	width:100%;
+	padding:8px;
+	background-color: #f8f8f8;
+	color: #757575;
+	height: 30px;
+	display: inline-flex;
+}
+
+.main {
+    margin: 200px auto;
+    width: 50%;
+    text-align: center;
+    clear: both;
+}
+
+
+#logo{
+  position: center;
+ }
+
+#searchbar{
+	width: 60%;
+	height: 40px;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	margin-top: 20px;
+}
+
+.inputbutton{
+	background-color: #f8f8f8;
+	color: #757575;
+	height: 35px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    border-shadow:0 1px 1px rgba(0,0,0,0.1);
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 20px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+
+ul {
+	list-style-type: none;
+	vertical-align: middle;
+	position:fixed;
+}
+
+ul.navRight{
+	right: 10px;
+	bottom: 15px;
+}
+
+ul.navHeaderRight{
+	right: 10px;
+	top: : 15px;
+}
+
+ul.navLeft{
+	left: 10px;
+	bottom: 15px;
+}
+
+li{
+	display: inline-block;
+}
+
+li a{
+	padding-right: 5px;
+	font-size: 13px;
+	color: gray;
+	text-decoration: none;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  text-align: center;
+	width: 100%;
+	height: 40px;
+	border-top: 1px;
+	border-top-color: #dcdcdc;
+	border-top-style: solid;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+		font-family: Arial, sans-serif;
+		font-size: 76%;
+		color: #777777;
+}
+
+li:hover{
+text-decoration: underline;
+
+}
+
+.left{
+	width: 300px;
+	word-spacing: 2em;
+	position: relative;
+	bottom: 6px;
+	float: left;
+	right: 15px;
+}
+
+.right{
+	width: 300px;
+	word-spacing: 2em;
+	bottom: 6px;
+	float: right;
+	position: relative;
+	left: 15px;
+}
+
+#applogo{
+	width: 30px;
+	height: 30px;
+}
+
+#notif{
+	width: 25px;
+	height: 25px;
+}
+
+#profileIcon{
+	width: 30px;
+	height: 30px;
+}
